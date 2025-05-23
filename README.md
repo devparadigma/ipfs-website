@@ -62,7 +62,7 @@ docker exec ipfs-website cat /data/ipfs/last_cid.txt
 ```
 docker logs ipfs-website | grep "Website CID"
 ```
-### 6. Настройка домена
+### 6. Настройка домена на примере CloudFlare
 1. Создайте TXT-запись в DNS:
 ```
 _dnslink.ваш-домен → dnslink=/ipfs/ВАШ_CID
